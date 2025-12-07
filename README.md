@@ -41,8 +41,8 @@ Examples:
 Kaggle inputs are read-only. Copy the project before building:
 
 ```bash
-cp -r /kaggle/input/code /kaggle/working/
-cd /kaggle/working/code
+cp -r /kaggle/input/<project_folder> /kaggle/working/
+cd /kaggle/working/<project_folder>
 make
 ./cuda_nn
 ```
